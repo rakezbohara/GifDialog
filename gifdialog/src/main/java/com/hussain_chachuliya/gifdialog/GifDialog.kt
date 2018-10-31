@@ -133,10 +133,10 @@ class GifDialog private constructor(private var ctx: Context) {
         val draweeView = mDialog?.findViewById<SimpleDraweeView>(R.id.draweeView)
 
         // Setting height and width according to the drawable
-        val bd = ContextCompat.getDrawable(ctx, resourceId!!) as BitmapDrawable
-        val imageHeight = bd.bitmap.height.toFloat()
-        val imageWidth = bd.bitmap.width.toFloat()
-        draweeView?.aspectRatio = imageWidth / imageHeight
+        val bd = ContextCompat.getDrawable(ctx, resourceId!!)
+        val imageHeight = bd?.intrinsicHeight!!
+        val imageWidth = bd?.intrinsicWidth
+        draweeView?.aspectRatio = (imageWidth / imageHeight).toFloat()
         draweeView?.layoutParams = ConstraintLayout.LayoutParams(
                 if (width == 0) imageWidth.toInt() else width,
                 if (height == 0) 0 else height)
