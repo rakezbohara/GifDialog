@@ -1,4 +1,4 @@
-package com.hussain_chachuliya.gifdialog
+package com.rakezbohara.gifdialog
 
 import android.app.Dialog
 import android.content.Context
