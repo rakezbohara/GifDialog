@@ -1,8 +1,7 @@
 
 # GifDialog
  
-[![](https://jitpack.io/v/aliwaris0572/GifDialog.svg)](https://jitpack.io/#aliwaris0572/GifDialog)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-GifDialog-red.svg?style=flat)](https://android-arsenal.com/details/1/7003)
+[![](https://jitpack.io/v/rakezbohara/GifDialog.svg)](https://jitpack.io/#rakezbohara/GifDialog)
 
 ## Custom loading dialog library in Kotlin
 This library aims to help in creating beautiful loading dialogs with animated gifs.
@@ -49,5 +48,5 @@ Add it in your root build.gradle at the end of repositories
 Then, add this in you app level build.gradle
 
     dependencies {
-	            implementation 'com.github.aliwaris0572:GifDialog:{latest_version}'
+	            implementation 'com.github.rakezbohara:GifDialog:{latest_version}'
 	    }
