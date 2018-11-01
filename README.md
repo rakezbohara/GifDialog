@@ -48,5 +48,5 @@ Add it in your root build.gradle at the end of repositories
 Then, add this in you app level build.gradle
 
     dependencies {
-	            implementation 'com.github.rakezbohara:GifDialog:{latest_version}'
+	            implementation 'com.github.rakezbohara:GifDialog:v0.0.6'
 	    }
