@@ -1,7 +1,7 @@
 
 # GifDialog
  
-[![](https://jitpack.io/v/aliwaris0572/GifDialog.svg)](https://jitpack.io/#rakezbohara/GifDialog)
+[![](https://jitpack.io/v/rakezbohara/GifDialog.svg)](https://jitpack.io/#rakezbohara/GifDialog)
 
 ## Custom loading dialog library in Kotlin
 This library aims to help in creating beautiful loading dialogs with animated gifs.
